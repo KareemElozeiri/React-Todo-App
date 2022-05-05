@@ -32,6 +32,9 @@
   margin: 40px auto;
   padding: 20px;
 }
+.home button{
+  border-radius: 8px;
+}
 
 .todo-preview h3 {
   color:blueviolet;

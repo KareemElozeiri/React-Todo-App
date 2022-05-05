@@ -11,6 +11,8 @@ class Home extends React.Component {
         this.handleDone = this.handleDone.bind(this);
     }
 
+    
+
     handleDone(id){
         console.log(id);
         this.setState({todos:this.state.todos.filter(todo => todo.id !== id), doneCount: this.state.doneCount+1});
