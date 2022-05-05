@@ -1,4 +1,7 @@
-const Navbar = () => {
+import React from 'react';
+
+class Navbar extends React.Component{
+    render(){
     return (
         <nav className="navbar">
             <h1>MyTodos</h1>
@@ -8,6 +11,7 @@ const Navbar = () => {
             </div>
         </nav>
       );
+    }
 }
  
 export default Navbar;

@@ -36,3 +36,11 @@
 .todo-preview h3 {
   color:blueviolet;
 }
+
+.todo-obj h3 {
+  color:blueviolet;
+}
+
+.todo-obj p {
+  color: gray;
+}
