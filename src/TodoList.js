@@ -4,7 +4,7 @@ const TodoList = (props) => {
 
     return (
         todos.map((todo)=>(
-            <TodoObj title={todo.title} description={todo.description} id={todo.id} />
+            <TodoObj title={todo.title} handleDone={props.handleDone} description={todo.description} id={todo.id} />
     )));
 }
  
